@@ -1,4 +1,4 @@
- apiVersion: v1
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: catalogue
@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: sowmya630/catalogue
+        image: sowmya630/catalogue 
         envFrom:
         - configMapRef:
             name: catalogue
